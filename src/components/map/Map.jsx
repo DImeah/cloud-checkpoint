@@ -19,7 +19,7 @@ const LocationPin = ({ text }) => (
 const Map = ({ location, zoomLevel }) => {
   // Define the location coordinates and address
   const loc = {
-    address: "iFarms KM 12 Gboko Road Makurdi.",
+    address: "iFarms KM 12 Gboko Road Makurdi",
     lat: 7.7205278,
     lng: 8.6567222,
   };

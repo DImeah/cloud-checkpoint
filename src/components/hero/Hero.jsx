@@ -1,11 +1,15 @@
 import React from "react";
 import "./hero.css";
 
+// Hero component displaying the mission and vision of iFarms
 const Hero = () => {
   return (
     <div className="hero-section">
+      {/* Mission Section */}
       <div>
+        {/* Heading for the Mission section */}
         <h1>Mission</h1>
+        {/* Description of the mission */}
         <p>
           At iFarms, our mission is to contribute to global food security by
           pioneering innovative and sustainable rice farming practices. We are
@@ -17,8 +21,11 @@ const Hero = () => {
         </p>
       </div>
 
+      {/* Vision Section */}
       <div>
+        {/* Heading for the Vision section */}
         <h1>Vision</h1>
+        {/* Description of the vision */}
         <p>
           Empowering communities through rice farming, iFarms envisions a world
           where sustainable agriculture is at the forefront of food production.
@@ -34,4 +41,5 @@ const Hero = () => {
   );
 };
 
+// Exporting the Hero component as the default export
 export default Hero;
